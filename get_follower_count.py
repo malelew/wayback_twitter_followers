@@ -9,7 +9,7 @@ twitter_url = "https://twitter.com/"
 arg_num = 4
 
 if (len(sys.argv) != arg_num):
-    raise ValueError("Incorrect number of arguemts please pass three arugments: twitte handle, from_date formatted as MMDDYYY, to_date formatted as MMDDYYY")
+    raise ValueError("Incorrect number of arguemts please pass three arugments: twitte handle, from_date formatted as YYYYMMDDhhss, to_date formatted as YYYYMMDDhhss")
 
 twitter_handle = str(sys.argv[1])
 from_date = str(sys.argv[2])
